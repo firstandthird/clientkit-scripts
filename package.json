@@ -1,0 +1,35 @@
+{
+  "name": "clientkit-scripts",
+  "version": "1.0.0",
+  "description": "Clientkit task for compiling, browserifying, and minifying JS files",
+  "main": "scripts.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/clientkit-scripts.git"
+  },
+  "author": "First+Third",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/firstandthird/clientkit-scripts/issues"
+  },
+  "homepage": "https://github.com/firstandthird/clientkit-scripts#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-firstandthird": "^3.0.2",
+    "eslint-plugin-import": "^2.1.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "6.16.0",
+    "browserify": "13.1.0",
+    "browserify-shim": "3.8.12",
+    "babelify": "7.3.0",
+    "uglifyify": "3.0.3",
+    "exorcist": "0.4.0",
+    "clientkit-task": "0.0.7"
+  },
+  "eslintConfig": {
+    "extends": "firstandthird"
+  }
+}
