@@ -1,6 +1,6 @@
 {
   "name": "clientkit-scripts",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Clientkit task for compiling, browserifying, and minifying JS files",
   "main": "scripts.js",
   "scripts": {
