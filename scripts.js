@@ -15,10 +15,9 @@ class ScriptsTask extends ClientKitTask {
   }
 
   process(input, filename, done) {
-    const b = new Browserify({
-      entries: [input],
-      debug: true
-    });
+    const options = Object.assign({}, this.options.browserify);
+    options.entries = [input];
+    const b = new Browserify(options);
 
     if (this.options.shim) {
       b.transform(shim);
