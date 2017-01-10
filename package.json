@@ -27,7 +27,7 @@
     "babelify": "7.3.0",
     "uglifyify": "3.0.3",
     "exorcist": "0.4.0",
-    "clientkit-task": "0.0.7"
+    "clientkit-task": "0.0.8"
   },
   "eslintConfig": {
     "extends": "firstandthird"
