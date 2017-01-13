@@ -1,20 +1,20 @@
 {
-  "name": "clientkit-scripts",
+  "name": "runkit-scripts",
   "version": "0.0.2",
-  "description": "Clientkit task for compiling, browserifying, and minifying JS files",
+  "description": "RunKit task for compiling, browserifying, and minifying JS files",
   "main": "scripts.js",
   "scripts": {
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firstandthird/clientkit-scripts.git"
+    "url": "git+https://github.com/firstandthird/runkit-scripts.git"
   },
   "author": "First+Third",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/firstandthird/clientkit-scripts/issues"
+    "url": "https://github.com/firstandthird/runkit-scripts/issues"
   },
-  "homepage": "https://github.com/firstandthird/clientkit-scripts#readme",
+  "homepage": "https://github.com/firstandthird/runkit-scripts#readme",
   "devDependencies": {
     "eslint": "^3.9.1",
     "eslint-config-firstandthird": "^3.0.2",
@@ -27,7 +27,7 @@
     "babelify": "7.3.0",
     "uglifyify": "3.0.4",
     "exorcist": "0.4.0",
-    "clientkit-task": "0.0.8"
+    "runkit-task": "0.0.10"
   },
   "eslintConfig": {
     "extends": "firstandthird"
