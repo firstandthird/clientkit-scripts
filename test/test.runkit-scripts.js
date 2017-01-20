@@ -4,11 +4,9 @@ const RunKitTask = require('../scripts.js');
 const input = 'test/inputs/input1.js';
 const input2 = 'test/inputs/input2.js';
 const inputShim = 'test/inputs/shim1.js';
-const inputIgnore = 'test/inputs/ignore.js';
 const output = 'test/outputs/output1.js';
 const outputMin = 'test/outputs/output.min.js';
 const outputMap = 'test/outputs/output1.js.map';
-const outputGlobal = 'test/outputs/outputGlobal.js';
 const outputShim = 'test/outputs/outputShim.js';
 
 test('process one input', (t) => {
