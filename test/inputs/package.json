@@ -1,0 +1,9 @@
+{
+  "name": "shim1",
+  "version": "0.0.3",
+  "description": "RunKit task for compiling, browserifying, and minifying JS files",
+  "main": "shim1.js",
+  "browserify-shim": {
+    "jquery": "global:$"
+  }
+}
