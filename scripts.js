@@ -1,5 +1,5 @@
 'use strict';
-const RunKitTask = require('runkit-task');
+const TaskKitTask = require('taskkit-task');
 const Browserify = require('browserify');
 const babelify = require('babelify');
 const shim = require('browserify-shim');
@@ -8,7 +8,7 @@ const uglifyify = require('uglifyify');
 const exorcist = require('exorcist');
 const path = require('path');
 
-class ScriptsTask extends RunKitTask {
+class ScriptsTask extends TaskKitTask {
 
   get description() {
     return 'Compiles your various client-executable files into a minified, source-mapped, browser-compatible js file that you can embed in a webpage';

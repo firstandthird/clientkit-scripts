@@ -1,21 +1,21 @@
 {
-  "name": "runkit-scripts",
+  "name": "taskkit-scripts",
   "version": "0.0.3",
-  "description": "RunKit task for compiling, browserifying, and minifying JS files",
+  "description": "taskkit task for compiling, browserifying, and minifying JS files",
   "main": "scripts.js",
   "scripts": {
     "test": "tape test/*.js | tap-spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firstandthird/runkit-scripts.git"
+    "url": "git+https://github.com/firstandthird/taskkit-scripts.git"
   },
   "author": "First+Third",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/firstandthird/runkit-scripts/issues"
+    "url": "https://github.com/firstandthird/taskkit-scripts/issues"
   },
-  "homepage": "https://github.com/firstandthird/runkit-scripts#readme",
+  "homepage": "https://github.com/firstandthird/taskkit-scripts#readme",
   "devDependencies": {
     "eslint": "^3.9.1",
     "eslint-config-firstandthird": "^3.0.2",
@@ -30,7 +30,7 @@
     "babelify": "7.3.0",
     "uglifyify": "3.0.4",
     "exorcist": "0.4.0",
-    "runkit-task": "0.0.10"
+    "taskkit-task": "0.0.11"
   },
   "eslintConfig": {
     "extends": "firstandthird"
