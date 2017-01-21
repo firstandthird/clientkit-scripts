@@ -1,6 +1,6 @@
 {
   "name": "taskkit-scripts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "taskkit task for compiling, browserifying, and minifying JS files",
   "main": "scripts.js",
   "scripts": {
