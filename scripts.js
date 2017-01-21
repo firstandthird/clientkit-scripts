@@ -23,11 +23,13 @@ class ScriptsTask extends TaskKitTask {
       b.transform(shim);
     }
 
+    const babelConfig = this.options.babel || {};
+
     let currentTransform = b.transform(babelify, {
-      global: this.options.globalBabel,
+      global: babelConfig.global,
       presets: [bes2015],
       plugins: [],
-      ignore: this.options.babelIgnore
+      ignore: babelConfig.ignore
     });
 
     if (this.options.minify) {
