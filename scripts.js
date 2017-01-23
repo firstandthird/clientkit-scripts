@@ -4,6 +4,7 @@ const Browserify = require('browserify');
 const babelify = require('babelify');
 const shim = require('browserify-shim');
 const bes2015 = require('babel-preset-es2015');
+const addModuleExports = require('babel-plugin-add-module-exports');
 const uglifyify = require('uglifyify');
 const exorcist = require('exorcist');
 const path = require('path');
@@ -28,7 +29,7 @@ class ScriptsTask extends TaskKitTask {
     let currentTransform = b.transform(babelify, {
       global: babelConfig.global,
       presets: [bes2015],
-      plugins: [],
+      plugins: [addModuleExports],
       ignore: babelConfig.ignore
     });
 
