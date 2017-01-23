@@ -1,0 +1,6 @@
+{
+  "name": "example",
+  "scripts": {
+    "start": "../node_modules/.bin/taskkit"
+  }
+}
