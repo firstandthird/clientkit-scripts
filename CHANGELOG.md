@@ -1,4 +1,11 @@
 
+0.0.6 / 2017-01-23
+==================
+
+  * added npm ignore
+  * added addModuleExports plugin
+  * added basic example
+
 0.0.5 / 2017-01-20
 ==================
 
