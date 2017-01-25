@@ -28,7 +28,7 @@
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "6.18.0",
     "babelify": "7.3.0",
-    "browserify": "13.1.1",
+    "browserify": "14.0.0",
     "browserify-shim": "3.8.12",
     "exorcist": "0.4.0",
     "taskkit-task": "0.0.11",
