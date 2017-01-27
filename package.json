@@ -31,7 +31,7 @@
     "browserify": "13.1.1",
     "browserify-shim": "3.8.12",
     "exorcist": "0.4.0",
-    "taskkit-task": "0.0.11",
+    "taskkit-task": "0.0.12",
     "uglifyify": "3.0.4"
   },
   "eslintConfig": {
