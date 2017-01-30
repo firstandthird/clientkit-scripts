@@ -22,7 +22,7 @@
     "eslint-plugin-import": "^2.1.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3",
-    "taskkit": "0.0.13"
+    "taskkit": "0.0.14"
   },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
