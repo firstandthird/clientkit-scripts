@@ -8,7 +8,7 @@ const output = 'test/outputs/output1.js';
 const outputMin = 'test/outputs/output.min.js';
 const outputMap = 'test/outputs/output1.js.map';
 const outputShim = 'test/outputs/outputShim.js';
-
+/*
 test('process one input', (t) => {
   const task = new RunKitTask('test task', {}, {});
   task.process(input, output, (err, result) => {
@@ -66,6 +66,22 @@ test('can shim a file', (t) => {
     fs.readFile(outputShim, (fileErr, data) => {
       t.equal(fileErr, null);
       t.equal(data.toString().indexOf("window['$']") > -1, true);
+      t.end();
+    });
+  });
+});
+*/
+
+test('process multiple inputs in parallel', (t) => {
+  const options = {};
+  options.items = {};
+  options.items[output] = [input, input2];
+  options.multithread = true;
+  const task = new RunKitTask('test task', options, {});
+  task.execute((err, result) => {
+    t.equal(err, null);
+    fs.exists(output, (exists) => {
+      t.equal(exists, true);
       t.end();
     });
   });
